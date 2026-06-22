@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "SmartInvest Draft",
+    "slug": "smartinvest-native",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B1222",
+    "newArchEnabled": false,
+    "splash": {
+      "backgroundColor": "#0B1222",
+      "resizeMode": "contain"
+    },
+    "android": {
+      "package": "com.smartinvest.draft"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.smartinvest.draft"
+    }
+  }
+}
