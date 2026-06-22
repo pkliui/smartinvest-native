@@ -83,7 +83,7 @@ export default function AnimatedTabBar({ active, onChange }: Props) {
               <Ionicons
                 name={tab.icon}
                 size={23}
-                color={focused ? colors.onDark : colors.muted}
+                color={focused ? colors.tabActiveIcon : colors.muted}
               />
               <Text style={[styles.label, focused && styles.labelActive]}>
                 {tab.label}
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
   },
   glassTint: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0,199,88,0.22)', // brand-green frosted overlay
+    backgroundColor: colors.tabGlass, // sliding-pill tint — set in theme/colors.ts
   },
   label: {
     fontSize: 11,
@@ -143,6 +143,6 @@ const styles = StyleSheet.create({
     color: colors.muted,
   },
   labelActive: {
-    color: colors.onDark,
+    color: colors.tabActiveIcon,
   },
 });
