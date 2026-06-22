@@ -20,7 +20,7 @@ interface Props {
 const PAD = 10; // horizontal padding inside the bar
 
 /**
- * Revolut-style bottom navigation with a frosted-glass indicator that *slides*
+ * Animated tab bar bottom navigation with a frosted-glass indicator that *slides*
  * between tabs. The pill is a translucent BlurView; its X position springs to
  * the selected tab using the built-in Animated API (native-driven transform).
  */

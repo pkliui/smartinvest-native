@@ -20,5 +20,5 @@ export const colors = {
   // Change these two to recolor the selected tab. Use the same hue for both if
   // you want the pill and its icon to read as one color.
   tabActiveIcon: '#FFFFFF', // color of the focused icon + label
-  tabGlass: 'rgba(0, 199, 88, 0.22)', // tint of the sliding glass pill (brand green @ 22%)
+  tabGlass: 'rgba(0, 199, 88, 0.92)', // tint of the sliding glass pill (bright brand green)
 } as const;
