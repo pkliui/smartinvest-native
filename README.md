@@ -3,7 +3,7 @@
 A native mobile app starter: Revolut-style animated bottom tabs, themed with the
 **loggd.life** color palette (verified from its compiled CSS).
 
-- **Stack:** React Native + Expo SDK 51 + TypeScript
+- **Stack:** React Native + Expo SDK 54 + TypeScript
 - **Brand green:** `#00C758` · **Background:** `#0B1222` · **Surface:** `#1E2939` · **Accent orange:** `#F99C00`
 - **Tabs:** Home · Markets · Portfolio · Profile (the selected tab grows into a colored pill with its label sliding in)
 
@@ -17,8 +17,13 @@ A native mobile app starter: Revolut-style animated bottom tabs, themed with the
 
 ```bash
 npm install          # installs dependencies (creates package-lock.json)
-npx expo start       # starts the dev server + QR code
+npx expo install --fix   # pins every package to the exact SDK 54 version
+npx expo start --tunnel  # starts the dev server + QR code
 ```
+
+> Expo Go on your phone must match the project's SDK. This project targets **SDK 54**
+> (the current Expo Go). `npx expo install --fix` is the source of truth for versions —
+> run it after install to reconcile React / React Native / etc. to SDK 54.
 
 Then either:
 - **Phone:** open **Expo Go** and scan the QR code from the terminal.

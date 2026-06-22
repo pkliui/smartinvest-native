@@ -6,7 +6,7 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "backgroundColor": "#0B1222",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "splash": {
       "backgroundColor": "#0B1222",
       "resizeMode": "contain"
